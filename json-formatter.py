@@ -13,7 +13,7 @@ def main():
         with open(input_file, "r", encoding="utf-8") as file:
             parsed_json = json.load(file)
 
-        formatted_json = json.dumps(parsed_json, indent=4)
+        formatted_json = json.dumps(parsed_json, indent=4, sort_keys=True)
 
         with open(output_file, "w", encoding="utf-8") as file:
             file.write(formatted_json)

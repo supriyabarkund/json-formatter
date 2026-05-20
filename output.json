@@ -1,10 +1,10 @@
 {
-    "name": "suhs",
     "age": 1,
     "city": "New York",
+    "name": "suhs",
     "subject": {
+        "english": 89,
         "math": 80,
-        "science": 100,
-        "english": 89
+        "science": 100
     }
 }
