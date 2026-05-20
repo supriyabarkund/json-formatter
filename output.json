@@ -1,0 +1,10 @@
+{
+    "name": "suhs",
+    "age": 1,
+    "city": "New York",
+    "subject": {
+        "math": 80,
+        "science": 100,
+        "english": 89
+    }
+}
