@@ -1,6 +1,6 @@
 # JSON Formatter
 
-A small command-line Python utility that formats raw JSON input with readable indentation.
+A small command-line Python utility that reads raw JSON from a file and writes formatted JSON to another file.
 
 ## Requirements
 
@@ -11,16 +11,16 @@ A small command-line Python utility that formats raw JSON input with readable in
 Run the script:
 
 ```bash
-python3 json-formatter.py
+python3 json-formatter.py input.json output.json
 ```
 
-Paste a raw JSON string when prompted:
+Example input file:
 
-```text
-Enter raw JSON string: {"name":"Ada","skills":["math","computing"]}
+```json
+{"name":"Ada","skills":["math","computing"]}
 ```
 
-The tool prints the formatted JSON:
+The tool writes formatted JSON to the output file:
 
 ```json
 {
@@ -32,4 +32,4 @@ The tool prints the formatted JSON:
 }
 ```
 
-Invalid JSON input prints a helpful parse error.
+Invalid JSON input prints a helpful parse error. Missing input files also print a clear error.
